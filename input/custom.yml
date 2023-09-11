@@ -1,0 +1,51 @@
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 15   
+      columns:
+        pinky.key:
+        ring.key:
+          splay: -5
+          origin: [-0.5u, -0.5u]
+          stagger: 15
+        middle.key:
+          splay: -5
+          origin: [-0.5u, -0.5u]
+          stagger: 7
+        index.key:
+          splay: -5
+          origin: [-0.5u, -0.5u]
+          stagger: -9
+        inner.key:
+          stagger: -4
+      rows:
+        bottom:
+          padding: u
+          row_net: P14
+        home:
+          padding: u
+          row_net: P16
+        top:
+          padding: u
+          row_net: P10
+    thumb:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-1u, -1u]
+      columns:
+        tucky:
+          key:
+            name: thumb_tucky
+        home:
+          key:
+            name: thumb_home
+            spread: u
+            splay: -15
+            origin: [-0.5u, -0.5u]
+        reachy:
+          key:
+            spread: u
+            splay: -15
+            origin: [-0.5u, -0.5u]
+            name: thumb_reachy
